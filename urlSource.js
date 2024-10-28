@@ -10,18 +10,22 @@ export const getEndpointUrls = async () => {
   );
 
   const data = await response.text();
- // Debug: Log raw data fetched from urls.txt
-  console.log("Raw data from urls.txt:", data);
-  
-  return data
-    .split("\n")
-    .filter((url) => url.length > 0)
-    .map((urlWithTitle) => {
-      const parts = urlWithTitle.split(",");
-      // title fallback is the url itself
-      let item = { url: parts[0], title: parts[1] || parts[0] };
-      // trim and replace all " with empty string
-      item.url = item.url.trim().replace(/"/g, "");
+  const lines = data.replace(/\r\n/g, "\n").split("\n").map(line => line.trim());
+
+  return lines
+    .filter(line => line.length > 0)
+    .map((urlWithTitle, index) => {
+      // Extract URL and title by splitting only at the first comma
+      const [url, ...titleParts] = urlWithTitle.split(",");
+      const title = titleParts.join(",").trim(); // Join remaining parts for title
+      
+      // Trim the URL and title to ensure no extra spaces
+      let item = { url: url.trim(), title: title || url.trim() };
+      
+      // Debugging each item
+      console.log(`Parsed item ${index + 1}:`, item);
+      
       return item;
     });
 };
+
