@@ -10,6 +10,9 @@ export const getEndpointUrls = async () => {
   );
 
   const data = await response.text();
+ // Debug: Log raw data fetched from urls.txt
+  console.log("Raw data from urls.txt:", data);
+  
   return data
     .split("\n")
     .filter((url) => url.length > 0)
