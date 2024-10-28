@@ -1,11 +1,11 @@
-https://brugge-ldes.geomobility.eu/observations ,Geomobility LDES for traffic counts in Bruges
-https://telraam-api.net/ldes/observations/by-page ,Traffic Counts from the We Count project
-https://treecg.github.io/Blue-Bike-to-OSLO/root.ttl ,Beschikbaarheid van Blue-bike deelfietsen (EU GreenMov)
-https://apim-iow-apimanagement.azure-api.net/ldes/devices-by-time ,Sensordata Internet Of Water - devices (niet-gevalideerde data)
-https://ca-westtoer-ldes.bluesea-b3dcdb70.westeurope.azurecontainerapps.io/touristattractions/latestView ,LDES Westtoer producten
-https://lodi.ilabt.imec.be/odala/oslo ,Linked Data Event Stream for Air Quality - ODALA
-https://www.marineregions.org/feed ,Marine Regions Linked Data Event Stream
-https://apim-iow-apimanagement.azure-api.net/ldes/water-quality-observations-by-time ,Sensordata Internet Of Water - observations (niet-gevalideerde data)
-https://private-api.gipod.vlaanderen.be/api/v1/ldes/mobility-hindrances ,Mobility Hindrances in Flanders
-https://apim-iow-apimanagement.azure-api.net/ldes/device-models-by-time ,Sensordata Internet Of Water – device models (niet-gevalideerde data)
-https://waterkwaliteit-brugge-ldes.kindflower-25e41809.westeurope.azurecontainerapps.io/Waterkwaliteit ,Linked Data Event Stream van de metingen over de waterkwaliteit van het oppervlaktewater van Stad Brugge - ODALA
+https://brugge-ldes.geomobility.eu/observations,Geomobility LDES for traffic counts in Bruges
+https://telraam-api.net/ldes/observations/by-page,Traffic Counts from the We Count project
+https://treecg.github.io/Blue-Bike-to-OSLO/root.ttl,Beschikbaarheid van Blue-bike deelfietsen (EU GreenMov)
+https://apim-iow-apimanagement.azure-api.net/ldes/devices-by-time,Sensordata Internet Of Water - devices (niet-gevalideerde data)
+https://ca-westtoer-ldes.bluesea-b3dcdb70.westeurope.azurecontainerapps.io/touristattractions/latestView,LDES Westtoer producten
+https://lodi.ilabt.imec.be/odala/oslo,Linked Data Event Stream for Air Quality - ODALA
+https://www.marineregions.org/feed,Marine Regions Linked Data Event Stream
+https://apim-iow-apimanagement.azure-api.net/ldes/water-quality-observations-by-time,Sensordata Internet Of Water - observations (niet-gevalideerde data)
+https://private-api.gipod.vlaanderen.be/api/v1/ldes/mobility-hindrances,Mobility Hindrances in Flanders
+https://apim-iow-apimanagement.azure-api.net/ldes/device-models-by-time,Sensordata Internet Of Water – device models (niet-gevalideerde data)
+https://waterkwaliteit-brugge-ldes.kindflower-25e41809.westeurope.azurecontainerapps.io/Waterkwaliteit,Linked Data Event Stream van de metingen over de waterkwaliteit van het oppervlaktewater van Stad Brugge - ODALA
