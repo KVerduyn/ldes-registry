@@ -6,7 +6,7 @@
  */
 export const getEndpointUrls = async () => {
   const response = await fetch(
-    "https://raw.githubusercontent.com/imec-int/ldes-registry/main/urls.txt"
+    "urls.txt"
   );
 
   const data = await response.text();
